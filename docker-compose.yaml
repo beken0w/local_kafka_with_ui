@@ -5,7 +5,7 @@ networks:
 
 services:
   kafka:
-    image: bitnami/kafka:latest
+    image: bitnamilegacy/kafka
     ports:
       - "9094:9094"
     networks:
